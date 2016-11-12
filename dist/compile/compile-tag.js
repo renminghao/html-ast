@@ -4,6 +4,7 @@ Object.defineProperty(exports, "__esModule", {
 				value: true
 });
 var compileTag = exports.compileTag = function compileTag(s, siblings) {
+				//根据节点的内容 返回开始结束标签 and 一些attr
 
 				var attr = ' ';
 

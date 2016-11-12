@@ -41,7 +41,7 @@ var ParseStartTag = exports.ParseStartTag = function ParseStartTag(s, cb) {
 };
 
 var ParseEndTag = exports.ParseEndTag = function ParseEndTag(s, cb) {
-
+	//匹配出结束节点
 	if (s.substring(0, 2) !== '</') return;
 
 	var endTagExp = /\<\/(\w+)\>/;
@@ -59,7 +59,7 @@ var ParseEndTag = exports.ParseEndTag = function ParseEndTag(s, cb) {
 };
 
 var ParseString = exports.ParseString = function ParseString(s, cb) {
-
+	//匹配出node节点
 	var index = s.indexOf('<');
 	var result = s.substring(0, index);
 	var content = s.substring(index);
