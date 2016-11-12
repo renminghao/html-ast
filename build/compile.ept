@@ -1,0 +1,251 @@
+{
+  "name": "form",
+  "attr": [
+    {
+      "name": "searchTop"
+    },
+    {
+      "action": "//list.tmall.com/search_product.htm"
+    },
+    {
+      "class": "mallSearch-form clearfix"
+    },
+    {
+      "target": "_top"
+    },
+    {
+      "acceptCharset": "gbk"
+    }
+  ],
+  "closeSelf": false,
+  "status": "start",
+  "children": [
+    {
+      "name": "fieldset",
+      "attr": [],
+      "closeSelf": false,
+      "status": "start",
+      "children": [
+        {
+          "name": "legend",
+          "attr": [],
+          "closeSelf": false,
+          "status": "start",
+          "children": [
+            {
+              "content": "天猫搜索"
+            }
+          ]
+        },
+        {
+          "name": "div",
+          "attr": [
+            {
+              "class": "mallSearch-input clearfix"
+            }
+          ],
+          "closeSelf": false,
+          "status": "start",
+          "children": [
+            {
+              "name": "label",
+              "attr": [
+                {
+                  "for": "mq"
+                }
+              ],
+              "closeSelf": false,
+              "status": "start",
+              "children": [
+                {
+                  "content": "搜索 天猫 商品/品牌/店铺"
+                }
+              ]
+            },
+            {
+              "name": "div",
+              "attr": [
+                {
+                  "class": "s-combobox"
+                }
+              ],
+              "closeSelf": false,
+              "status": "start",
+              "children": [
+                {
+                  "name": "div",
+                  "attr": [
+                    {
+                      "class": "s-combobox-input-wrap"
+                    }
+                  ],
+                  "closeSelf": false,
+                  "status": "start",
+                  "children": [
+                    {
+                      "name": "input",
+                      "attr": [
+                        {
+                          "type": "text"
+                        },
+                        {
+                          "name": "q"
+                        },
+                        {
+                          "accesskey": "s"
+                        },
+                        {
+                          "autocomplete": "off"
+                        },
+                        {
+                          "x-webkit-speech": ""
+                        },
+                        {
+                          "x-webkit-grammar": "builtin:translate"
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "id": "mq"
+                        },
+                        {
+                          "autocomplete": "off"
+                        }
+                      ],
+                      "closeSelf": true,
+                      "status": "start",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "button",
+              "attr": [
+                {
+                  "type": "submit"
+                }
+              ],
+              "closeSelf": false,
+              "status": "start",
+              "children": [
+                {
+                  "content": "搜索"
+                },
+                {
+                  "name": "s",
+                  "attr": [],
+                  "closeSelf": false,
+                  "status": "start",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "input",
+              "attr": [
+                {
+                  "id": "J_Type"
+                },
+                {
+                  "type": "hidden"
+                },
+                {
+                  "name": "type"
+                },
+                {
+                  "value": "p"
+                }
+              ],
+              "closeSelf": true,
+              "status": "start",
+              "children": []
+            },
+            {
+              "name": "input",
+              "attr": [
+                {
+                  "id": "J_MallSearchStyle"
+                },
+                {
+                  "type": "hidden"
+                },
+                {
+                  "name": "style"
+                },
+                {
+                  "value": ""
+                }
+              ],
+              "closeSelf": true,
+              "status": "start",
+              "children": []
+            },
+            {
+              "name": "input",
+              "attr": [
+                {
+                  "id": "J_Cat"
+                },
+                {
+                  "type": "hidden"
+                },
+                {
+                  "name": "cat"
+                },
+                {
+                  "value": "all"
+                }
+              ],
+              "closeSelf": true,
+              "status": "start",
+              "children": []
+            },
+            {
+              "name": "input",
+              "attr": [
+                {
+                  "type": "hidden"
+                },
+                {
+                  "name": "vmarket"
+                },
+                {
+                  "value": ""
+                }
+              ],
+              "closeSelf": true,
+              "status": "start",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "a",
+      "attr": [
+        {
+          "href": "//tmall.com"
+        }
+      ],
+      "closeSelf": false,
+      "status": "start",
+      "children": [
+        {
+          "name": "span",
+          "attr": [],
+          "closeSelf": false,
+          "status": "start",
+          "children": [
+            {
+              "content": "test"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
