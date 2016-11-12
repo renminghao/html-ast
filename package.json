@@ -1,8 +1,8 @@
 {
   "name": "explain",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "html的AST解析",
+  "main": "/dist/index.js",
   "scripts": {
     "dev": "gulp && node build/index.js",
     "cpl": "gulp && node build/compile.js"
